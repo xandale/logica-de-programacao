@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    
+    <hr><br>
+    <form action="">
+        <h4>Campo do tipo text</h4>
+        <!-- legenda para nome -->
+        <label for="campo_nome">Nome:</label>
+
+        <!-- campo input type text -->
+        <input id="campo_nome" type="text" placeholder="Digite seu nome Aqui" required>
+
+        <!-- legenda para sobrenome -->
+        <label for="campo_sobrenome">Sobrenome:</label>
+
+        <!-- campo input type text -->
+        <input id="campo_sobrenome" type="text" placeholder="Digite seu sobrenome Aqui" required>
+        <h4>campo do tipo email</h4>
+
+        <!-- legenda para email -->
+        <label for="campo_email">Email:</label>
+
+        <!-- campo input type email -->
+        <input id="campo_email" type="email" placeholder="Digite seu email" required>
+
+        <h4>Campo do tipo senha</h4>
+
+        <!-- legenda para senha -->
+        <label for="campo_senha">Senha:</label>
+
+        <!-- campo input type senha -->
+        <input id="campo_senha" type="password" placeholder="Digite uma senha" required>
+        
+        <h2>Animal de estimação</h2>
+        
+        <!-- campo input type radio apenas uma opção-->
+        <input type="radio" name="animal"id="dog" value="cachorro">
+        <label for="dog">Cachorro</label>
+        
+        <br><br>
+        
+        <input type="radio" name="animal"id="cat" value="gato">
+        <label for="cat">gato</label>
+
+        <br><br>
+
+        <input type="radio" name="animal"id="bird" value="Passaro">
+        <label for="bird">Passaro</label>
+        
+        <br><br>
+
+        <h2>Oque você tem em casa?</h2>
+        <!-- campo input type cheackbox seleciona varios itens -->
+        <input required id="item1" type="checkbox" name="item1" value="TV" >
+        <label for="item1">TV</label> <br><br>
+
+        <input id="item2" type="checkbox" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label> <br><br>
+
+        <input id="item3" type="checkbox" name="item3" value="computador">
+        <label for="item3">computador</label> <br><br>
+
+        <h2>Escolha uma cor</h2>
+        <!-- campo select para selecionar uma opção -->
+        <select name="cores" id="">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="amarelo">Amarelo</option>
+            <option value="verde">Verde</option>
+        </select> <br><br>
+
+        <h2>Digite sua mensagem</h2>
+        <!-- campo do tipo textarea para enviar textos mais longos -->
+        <textarea placeholder="Digite sua mensagem" rows="15" cols="55" name="mensagem" id=""></textarea>
+
+        <br><br><br> <!-- campo input type submit -->
+        <input type="submit" value="Enviar Formulário"><br><br>
+    </form>
+    <!-- botão -->
+    <button>Clique aqui</button>
+    
+<hr>
+    <a href="../index.html">voltar</a>
+
+</body>
+
+</html>
