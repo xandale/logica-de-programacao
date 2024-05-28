@@ -1,0 +1,65 @@
+header {
+    /* position: fixed;
+    top: 0px; */
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(yellow,orange);
+    color: rgb(15, 15, 15); padding: 20px; margin: 0px; text-align: center;
+}
+header h1 {
+    margin: 0px;
+}
+
+.navbar-link {
+        text-decoration: none; color: rgb(36, 35, 35); margin-right: 20px;
+     }
+    
+body{
+    margin: 0px;
+}
+main{
+    
+    width: 800px;
+    margin: auto;
+    /* padding: 0px 200px; */
+}
+.imagem-bolo {
+    
+    width: 700px;
+    margin-bottom: 20px;
+}
+
+.lista{
+    padding-left: 20px;
+}
+h3{
+    padding-left: 20px;
+    margin: 5px 0px;
+}
+h2{
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.video{
+    padding-left: 20px;
+    width: 560px;
+    height: 300px;
+}
+.legenda-video{
+    padding-left: 20px;
+}
+.texto-centralizado{
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+}
+.texto-footer{
+    padding: 8px;
+}
+body{
+    background-color: moccasin;
+}
