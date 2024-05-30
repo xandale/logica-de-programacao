@@ -1,32 +1,65 @@
 header{
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0px;
-    background: linear-gradient(yellow,orange);
-    color: rgb(15, 15, 15); padding: 20px; margin: 0px; text-align: center;
+    background: linear-gradient(black,orange);
+    color: rgb(255, 255, 255); padding: 10px; margin: 0px; text-align: center;
+    opacity: 80%;
+}
+.link{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
 }
 
 main{
     
     width: 800px;
     margin: auto;
+    margin-top: 10%;
     /* padding: 0px 200px; */
 }
 .imagem-whats{
     width: 70px;
     margin-bottom: 20px;
-    position: absolute;
-    bottom: 15px;
-    left: 1050px;
+    position: fixed;
+    bottom: 0px;
+    right: 200px;
 
 }
 .imagem-conversa{
     width: 70px;
     margin-bottom: 20px; 
-    position: absolute;
-    bottom: 15px;
+    position: fixed;
+    bottom: 0px;
+    left: 200px;
 }
 .mensagemDeBoasVindas{
     position: absolute;
-    bottom: 690px;
-    right: 1300px;
+    top: 0px;
+    /* background-color: green; */
+    color: white;
+    left: 10px;
+    margin: 0%;
+    z-index: 1;
 }
+.elemento{
+    background-color: rgb(32, 243, 24);
+    position: sticky;
+    /* definir onde fica fixa */
+    top: 120px;
+    right: 50px;
+}
+.elemento2{
+    background-color: aqua;
+    /* movimento relativo a esquerda */
+    position:relative;
+    left: 100px;
+    z-index: 1;
+}
+
+.trabalho{
+    width: 700px;
+}
+
+/* flebox displai flex */
