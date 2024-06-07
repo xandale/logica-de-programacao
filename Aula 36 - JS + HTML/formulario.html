@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="formulario.js" defer></script>
+</head>
+<body>
+    <form onsubmit="enviarFormulario(event)">
+        <label for="id_nome">nome</label>
+        <input type="text" name="nome_usuario" id="id_nome">
+
+        <label for="id_email">E-mail</label>
+        <input type="email" name="email_usuario" id="id_email">
+
+        <label for="id_mensagem">Mensagem</label>
+        <textarea name="mensagem_usuario" id="id_mensagem" cols="30" rows="10"></textarea>
+
+        <!-- botao que aciona o evento de submit -->
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>

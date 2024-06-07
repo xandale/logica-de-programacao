@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cauculadora de IMC</title>
+    <script src="imc.js" defer></script>
+</head>
+<body>
+    <header><h1>Cauculadora de IMC</h1></header>
+<main>
+    <form onsubmit="enviarFormulario(event)">
+        <label >
+        Nome:
+    <input type="text" id="campoNome" name="campoNome">
+        </label>
+    
+        <label>
+            altura:
+            <input type="number" id="campoAltura" name="campoAltura">
+        </label>
+        <label>
+            peso:
+            <input type="number" id="campoPeso" name="campoPeso">
+        </label>
+        <label>
+            Profissão:
+            <input type="text" id="campoProfissao" name="campoProfissao">
+        </label>
+        <label>
+            Foto:
+            <input type="url" id="campoFoto" name="campoFoto">
+        </label>
+
+        <button type="submit" name="botao">Avaliar</button>
+
+    </form>
+
+    <p id="resultado"></p>
+</main>
+
+</body>
+</html>
