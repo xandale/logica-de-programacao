@@ -1,0 +1,27 @@
+header {
+    /* position: fixed;
+    top: 0px; */
+    position: sticky;
+    top: 0px;
+    background: gray;
+    color: rgb(15, 15, 15); padding: 20px; margin: 0px; text-align: center;
+}
+form{
+/* display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items:center;
+margin: 20px; */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+width: 14%;
+background-color: rgba(0, 0, 0, 0.5);
+padding: 1em;
+border-radius: 10px;
+
+}
+body{
+    background-color: rgb(134, 168, 137);
+}
