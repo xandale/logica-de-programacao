@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="2.js" defer></script>
+    <style>
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- exercicio 1 -->
+    <p id="paragrafo">Páragrafo</p>
+    <button onclick="mudaCor()">Mudar parágrafo</button>
+    <!-- exercicio 2 -->
+    <div id="quadrado" onmouseover="mudarparaVerde()" onclick="mudarCorAmarela()" onmouseout="voltarParaVerde()"></div>
+    <!-- exercicio 3 -->
+    <label for="nomeCor">Cor:</label>
+    <input id="nomeCor" name="nomeCor" type="text" placeholder="Digite uma cor em inglês" oninput="corEscolhida()">
+
+</body>
+
+</html>
