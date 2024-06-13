@@ -1,0 +1,46 @@
+.principal{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(240,244,248);
+
+}
+/* Evento hover quando o mouse está sobre o elemento*/
+.principal:hover{
+    background-color: rgb(202, 226, 246);
+}
+
+.principal:active{
+    background-color: rgb(187, 247, 247);
+}
+.texto{
+    color: red;
+
+}
+/* quando o elemento está com foco */
+.texto:focus{
+    color: rgb(0, 0, 0);
+}
+/* .btn-principal{} */
+/*Sites que á foram visitados */
+/* a:visited{
+text-decoration: none;
+color: aqua;
+} */
+
+/* Exercicio*/
+
+.youtube:hover{
+    color: red;
+}
+
+button:active{
+    color: red;
+    background-color: blue;
+}
+input:focus{
+   
+    background-color:rgb(165, 165, 233);
+}
+.link1:visited{
+    color: green;
+}
