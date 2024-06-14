@@ -1,3 +1,101 @@
 .oculto{
     display: none;
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    
+}
+
+header{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background: rgb(126, 206, 159);
+    color: black;
+    border-radius: 5%;
+}
+body{
+    background-color: antiquewhite;
+}
+
+#comprar{
+    background-color: rgb(147, 228, 100);
+    position: relative;
+    bottom: 200px;
+    left: 50px;
+}
+#x{
+    color: red;
+    height: 20px;
+    
+}
+#x:hover{
+        height: 30px;
+        width: 30px;
+        background-color: red;
+        color: black;
+    }
+footer{
+    text-align: left;
+    margin-left:10px;
+
+}
+#ficha{
+    color: rgb(0, 0, 0);
+    height: 330px;
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+.barata:hover{
+height: 80px;
+border-radius: 5%;
+}
+#botaoComprar:hover{
+background-color: rgb(206, 138, 138);
+height: 26px;
+width: 73,7px;
+border-radius: 10%;
+}
+#botaoComprar{
+    position: relative;
+    /* right: 20px; */
+    bottom: 300px;
+    left: 400px;
+}
+#linksDeNavegacao{
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+    margin-right: 5px;
+}
+#linksDeNavegacao:hover{
+    color:red;
+}
+#linksDeNavegacao:visited{
+    color: blue;
+}
+
+h3{
+    text-align: center;
+}
+h1,body{
+    margin: 0px;
+}
+h2{
+    margin-left:10px;
+}
+.fotoCelular{
+    margin-left:10px;
+
+}
+#cupom:focus{
+/* border-radius: 5px; */
+border-color: red;
 }
