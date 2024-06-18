@@ -1,0 +1,32 @@
+header{
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(yellow,orange);
+    color: rgb(15, 15, 15); padding: 20px; margin: 0px; text-align: center;
+}
+
+main{
+    
+    width: 800px;
+    margin: auto;
+    /* padding: 0px 200px; */
+}
+.imagem-whats{
+    width: 70px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 15px;
+    left: 1050px;
+
+}
+.imagem-conversa{
+    width: 70px;
+    margin-bottom: 20px; 
+    position: absolute;
+    bottom: 15px;
+}
+.mensagemDeBoasVindas{
+    position: absolute;
+    bottom: 690px;
+    right: 1300px;
+}
