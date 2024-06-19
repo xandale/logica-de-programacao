@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+     flex-direction: row;
+    justify-content:space-evenly;
+}
+.quadrado{
+    height: 200px; /*autura*/
+    width: 200px; /*largura*/
+    background-color: aqua;
+    margin: 10px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fora{
+    width: 400px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dentro{
+    height: 40px;
+    width: 24px;
+    margin: 10px;
+    background-color: purple;
+}
