@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <script src="4.js" defer></script>
+</head>
+<body>
+       <form onsubmit="adicionarComentario(event)">
+        <label for="comentario">Mensagem</label>
+        <input type="text" id="comentario" name="comentario">
+        <button type="submit">Enviar</button>             
+    </form>
+    <p id="listaComentarios"></p>
+    <p id="contadorComentarios"></p>
+    
+</body>
+</html>
+
+<!-- Em uma página de comentários, os comentários enviados pelos usuários devem ser exibidos juntamente com a contagem total de comentários.
+
+Crie uma página HTML com um formulário que tenha um campo de texto (ID "comentario") e um botão enviar. Além disso, crie dois parágrafos, um com o ID "contadorComentarios" e outro com o ID “listaComentarios”. À medida que o usuário envia o formulário, mostre os comentários na tela e também mostre no contador a quantidade de comentários.
+
+Entregas (0,4 pontos cada):
+
+1.	Criar a estrutura HTML com o formulário, campo de texto, botão e parágrafos.
+2.	Adicionar IDs "comentario", "contadorComentarios" e "listaComentarios" aos elementos correspondentes. 
+3.	Configurar o formulário para chamar a função "adicionarComentario" ao ser enviado, enviando o event.
+4.	Implementar a função JavaScript "adicionarComentario" que recebe o event e executa o método preventDefault.
+5.	Exibir os comentários na tela e atualizar o contador ao enviar o formulário, utilizando o JavaScript.  -->
