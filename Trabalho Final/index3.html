@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de filmes</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <header>
+        <button onclick="inicio()">Inicio</button>
+        <button onclick="principais()">Principais</button>
+        <button onclick="viloes()">Vilões</button>
+        <button onclick="cadastro()">Cadastrar um filme</button>
+    </header>
+    <main>
+        <div id="divcadastro" class="xdf oculto">
+            <h2> Cadastrar um filme</h2>
+            <form onsubmit="cadastrar_filme(event)" id="formulario">
+                <input type="url" id="foto" placeholder="url da foto">
+                <input type="text" id="titulo" placeholder="Titulo do filme">
+                <input type="text" id="autor" placeholder="Autor">
+                <input type="date" id="data">
+                <input type="text" id="genero" placeholder="Gênero">
+                <input type="number" id="duracao" placeholder="Duração em minutos">
+                <input type="text" id="sinopse" placeholder="Sinopse">
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+        <h2>
+            Lista de filmes
+        </h2>
+        <div class="filmes" id="listafilmes">
+
+        </div>
+    </main>
+</body>
+</html>
