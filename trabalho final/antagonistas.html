@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antagonistas</title>
+    <script src="2.js" defer></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- LINKS DAS OUTRAS PÁGINAS -->
+    <a href="">Inicio</a><a href="">Principais</a>
+    <h1>Antagonistas</h1>
+    <!-- ENTRADA DE DADOS -->
+    <form id="formulario" onsubmit="enviarFormulario(event)">
+        <label for="foto">Foto:</label>
+        <input id="foto" type="url" placeholder="URL da foto do Vilão" required>
+
+        <label for="nomeFilme">Filme:</label>
+        <input id="nomeFilme" type="text" placeholder="Nome do filme" required>
+
+        <label for="nomeAntagonista">Vilão:</label>
+        <input id="nomeAntagonista" type="text" placeholder="Nome do Vilão" required>
+
+        <label for="nomeAtor">Ator:</label>
+        <input id="nomeAtor" type="text" placeholder="Nome do ator/atriz" required>
+
+        <label for="motivacao">Motivações do Vilão:</label><br>
+        <textarea name="Motivação Principal" id="motivacao" placeholder="Motivação Principal" required></textarea>
+
+        <!-- BOTÃO COM FUNÇÃO -->
+        <button onclick="enviar()" type="submit">Adicionar Vilão</button>
+    </form>
+    <!-- SAIDA DE DADOS -->
+    <div id="saida">
+        <img src="" alt="" id="fotoDoVilao">
+        <p id="saidaNomeFilme"></p>
+        <p id="saidaNomeVilao"></p>
+        <p id="saidaNomeAtor"></p>
+        <p id="saidaMotivacao"></p>
+    </div>
+</body>
+</html>
+<!-- Tela de Antagonistas: Listar antagonistas com foto, nome, filme,ator/atriz, descrição e motivo do antagonismo. Permitir adição eexclusão de antagonistas. -->
