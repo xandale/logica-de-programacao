@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Vilões de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-bottom: 8px;
+        }
+        input, select {
+            margin-bottom: 12px;
+            padding: 8px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <script src="2.js" defer></script>
+</head>
+<body>
+    <h1>Cadastro de Vilões de Filmes</h1>
+    <form>
+        <label for="nome">Nome do Vilão:</label>
+        <input type="text" id="nomeAntagonista" name="nome" required>
+        
+        <label for="nomeAtor"></label>
+        <input type="text" id="nomeAtor" name="nomeAtor" required>
+
+        <label for="filme">Filme:</label>
+        <input type="text" id="nomeFilme" name="filme" required>
+
+        <textarea name="motivacao" id="motivacao" cols="30" rows="10"></textarea>
+
+        <label for="imagem">URL da Imagem:</label>
+        <input type="url" id="foto" name="imagem" placeholder="http://exemplo.com/imagem.jpg" required>
+
+        <button type="submit">Adicionar Vilão</button>
+    </form>
+    
+    <!-- Aqui seria exibida a lista de vilões cadastrados -->
+    <!-- Você precisaria de JavaScript para manipular os dados e exibí-los dinamicamente -->
+    
+    <script>
+        // Aqui você precisaria adicionar scripts para manipular os dados do formulário e exibir os vilões cadastrados.
+        // Por exemplo, poderia usar JavaScript para capturar o evento de envio do formulário, salvar os dados em um array ou enviar para um servidor, e então exibir a lista de vilões abaixo do formulário.
+    </script>
+    
+</body>
+</html>
