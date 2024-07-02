@@ -6,33 +6,40 @@
     <title>Antagonistas</title>
     <script src="1.js" defer></script>
     <link rel="stylesheet" href="estilo.css">
+
 </head>
 <body>
+    <header>
     <!-- LINKS DAS OUTRAS PÁGINAS -->
     <a href="">Inicio</a>
     <a href="">Principais</a>
     <a href="">Vilões</a>
     <a href="">Cadastrar um filme</a>
-    <h1>Antagonistas</h1>
+    </header>
     <!-- ENTRADA DE DADOS -->
-    <form id="formulario" onsubmit="enviarFormulario(event)">
-        <label for="foto">Foto:</label>
-        <input id="foto" type="url" placeholder="URL da foto do Vilão" >
+    <div id="divcadastro" class="divPrincipal">
+         
+         <form id="formulario" onsubmit="enviarFormulario(event)">
+            <h2>Cadastro de Vilão</h2>
 
-        <label for="nomeFilme">Filme:</label>
-        <input id="nomeFilme" type="text" placeholder="Nome do filme" required>
-        
-        <label for="nomeAtor">Ator:</label>
-        <input id="nomeAtor" type="text" placeholder="Nome do ator/atriz" required>
+             <label for="foto">Foto:</label>
+             <input id="foto" type="url" placeholder="URL da foto do Vilão" >
 
-        <label for="nomeAntagonista">Vilão:</label>
-        <input id="nomeAntagonista" type="text" placeholder="Nome do Vilão" required>
+             <label for="nomeFilme">Filme:</label>
+             <input id="nomeFilme" type="text" placeholder="Nome do filme" required>
 
-        <label for="motivacao">Motivações do Vilão:</label><br>
-        <textarea name="Motivação Principal" id="motivacao" placeholder="Motivação Principal" cols="5" rows="20" required></textarea>
+             <label for="nomeAtor">Ator:</label>
+             <input id="nomeAtor" type="text" placeholder="Nome do ator/atriz" required>
 
-        <button type="submit">Adicionar Vilão</button>
-    </form>
+             <label for="nomeAntagonista">Vilão:</label>
+             <input id="nomeAntagonista" type="text" placeholder="Nome do Vilão" required>
+
+             <label for="motivacao">Motivações do Vilão:</label><br>
+             <textarea name="Motivação Principal" id="motivacao" placeholder="Motivação Principal" cols="74" rows="2" required></textarea>
+
+             <button type="submit" id="addVilao">Adicionar Vilão</button>
+         </form>
+    </div>
     <!-- SAIDA DE DADOS -->
     <div class="filmes" id="listafilmes">
     </div>

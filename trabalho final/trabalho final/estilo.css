@@ -1,7 +1,5 @@
 /* Reset de estilos padrão */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -11,12 +9,10 @@ body {
     padding: 20px;
 }
 
-h1 {
+/* h1 {
     text-align: center;
-    color: #333;
-    margin-bottom: 20px;
-    
-}
+    color: #333;  
+} */
 
 #formulario {
     max-width: 600px;
@@ -29,7 +25,7 @@ h1 {
 
 input[type="url"],
 input[type="text"],
-button {
+#addVilao{
     display: block;
     width: 100%;
     padding: 10px;
@@ -43,12 +39,13 @@ button {
 
 input[type="url"]:focus,
 input[type="text"]:focus,
-button:focus {
+#motivacao,
+#addVilao{
     outline: none;
     border-color: #4CAF50;
 }
 
-button {
+#addVilao {
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
@@ -56,7 +53,43 @@ button {
     border: none;
     transition: background-color 0.3s ease;
 }
+.delete{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border-color:white;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+    
+
+}
 
 button:hover {
-    background-color: #45a049;
+    background-color:red;
+}
+.filme{
+    font-family: Arial, sans-serif;
+    width: 600px;
+    background-color: rgb(157, 157, 157);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: left;
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+header{
+    margin: 0 auto;
+    display: block;
+}
+.imgfilme{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
 }

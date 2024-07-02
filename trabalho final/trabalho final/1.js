@@ -31,18 +31,23 @@ function atualizar_div_filmes(){
     div.innerHTML = ''    
     // for para exibir cada filme no HTML
     for(let i = 0; i < todosFilme.length; i++){
-        let saida =`<div class="filmes">
-        console.log(todosFilme[i])
-        <img class="imgfilme" src="">${todosFilme[i][0]}
-        <p class="titulofilme">${todosFilme[i][1]}</p>
-        <p class="textofilme">Autor: ${todosFilme[i][2]}</p>
-        <p class="textofilme">Vilão: ${todosFilme[i][3]}</p>
-        <p class="textofilme">Motivação: ${todosFilme[i][4]}</p></div>`;
+        let saida =`<div id="${i}"class="filme">
+        <img class="imgfilme" src="${todosFilme[i][0]}">
+        <p class="titulofilme"><b>${todosFilme[i][1]}</b></p>
+        <p class="textofilme"><b>Autor:</b> ${todosFilme[i][2]}</p>
+        <p class="textofilme"><b>Vilão:</b> ${todosFilme[i][3]}</p>
+        <p class="textofilme"><b>Motivação:</b> ${todosFilme[i][4]}</p>
+        <button onclick="deletar(${i})" class="delete"><b>Excluir</b></button></div>`;
         div.innerHTML += saida
     }
     
 }// localStorage.setItem(inputFoto,inputNomeFilme,inputNomeAntagonista,inputNomeAtor,inputMotivacao)
 
+//Botao de excluir
+function deletar(id){
+    var tarefa = document.getElementById(id);
+    tarefa.remove();
+}
 
 
 
