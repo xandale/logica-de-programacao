@@ -1,0 +1,140 @@
+/* Reset de estilos padrão */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: black;
+    margin: auto;
+}
+
+/* h1 {
+    text-align: center;
+    color: #333;  
+} */
+
+#formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: gold;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.1);
+    margin-top: 20px;
+}
+
+input[type="url"],
+input[type="text"],
+#addVilao{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+
+}
+
+input[type="url"]:focus,
+input[type="text"]:focus,
+#motivacao,
+#addVilao{
+    outline: none;
+    border-color: #4CAF50;
+}
+
+#addVilao {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+    
+}
+.btn-remover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid black;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+    border-radius: 8px;
+
+}
+
+.btn-remover:hover {
+    background-color:red;
+}     
+#nav:hover{
+    background-color:red;
+}
+#nav{
+    background-color: #4CAF50;
+    border-radius: 8px;
+    margin-left: 10px;
+}
+
+.filme{
+    font-family: Arial, sans-serif;
+    width: 600px;
+    background-color:gold;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: left;
+    color: black;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    border: 2px solid black;
+}
+header{
+    width: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+    background-color: gold;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 2px solid gold;
+    text-decoration:none; 
+    
+}
+.imgfilme{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1.1);
+    border: 1px solid rgb(109, 109, 109);
+}
+#links{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    }
+p{
+    border: 1px solid black;
+    padding: 10px;
+}
+h2{
+    border: 1px solid black;
+    padding: 10px;
+}

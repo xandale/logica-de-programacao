@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antagonistas</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <header>
+    <!-- LINKS DAS OUTRAS PÁGINAS --> 
+    <button id="nav" ><a id="links" href="inicio.html">Inicio</a></button>
+    <button id="nav" > <a id="links" href="protagonista.html">Principais</a></button>
+    <button id="nav" ><a id="links" href="antagonistas.html">Vilões</a></button>
+</header>
+    <!-- ENTRADA DE DADOS -->
+    <main>
+    <div id="divcadastro" class="divPrincipal">
+         
+         <form id="formulario" onsubmit="enviarFormulario(event)">
+            <h2>Cadastro de Vilão</h2>
+
+             <label for="foto">Foto:</label>
+             <input id="foto" type="url" placeholder="URL da foto do Vilão" >
+
+             <label for="nomeFilme">Filme:</label>
+             <input id="nomeFilme" type="text" placeholder="Nome do filme" required>
+
+             <label for="nomeAtor">Ator:</label>
+             <input id="nomeAtor" type="text" placeholder="Nome do ator/atriz" required>
+
+             <label for="nomeAntagonista">Vilão:</label>
+             <input id="nomeAntagonista" type="text" placeholder="Nome do Vilão" required>
+
+             <label for="motivacao">Motivações do Vilão:</label><br>
+             <textarea name="Motivação Principal" id="motivacao" placeholder="Motivação Principal" cols="74" rows="2" required></textarea>
+
+             <button type="submit" id="addVilao">Adicionar Vilão</button>
+         </form>
+    </div>
+    </main>
+    <!-- SAIDA DE DADOS -->
+    <div class="filmes" id="listafilmes">
+    </div>
+    <footer>
+        Copyright © 2024 Master codigos | Todo Direito Reservado
+    </footer>
+   
+</body>
+</html>
